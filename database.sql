@@ -113,7 +113,7 @@ INSERT INTO articles (titre, description_courte, contenu, id_categorie, id_auteu
 (
     'Exploration spatiale 2026',
     'Nouveaux objectifs ambitieux pour la NASA et l’ESA.',
-    'L agence spatiale américaine a annoncé un plan de 10 ans pour une mission habitée vers Mars, avec un partenariat européen renforcé et un budget en hausse.',
+    'L\'agence spatiale américaine a annoncé un plan de 10 ans pour une mission habitée vers Mars, avec un partenariat européen renforcé et un budget en hausse.',
     '1',
     '2',
     'uploads/nasa.jpg'
@@ -121,68 +121,68 @@ INSERT INTO articles (titre, description_courte, contenu, id_categorie, id_auteu
 (
     'Elections municipales : enjeux locaux',
     'Analyse des priorités des électeurs.',
-    'Les élections mettent laccent sur l eau, l éducation et les transports. Les candidats font campagne sur des projets concrets et un budget responsable.',
+    'Les élections mettent laccent sur l\'eau, l éducation et les transports. Les candidats font campagne sur des projets concrets et un budget responsable.',
     '3',
     '1',
     'uploads/election.jpg'
 ),
 ('Festival culturel : programmation 2026',
-'Retour sur les artistes confirmés pour l été.',
+'Retour sur les artistes confirmés pour l\'été.',
 'Le festival accueillera des artistes locaux et internationaux, ateliers de création, cinéma en plein air et rencontres autour des métiers de la culture.',
 '5',
 '1',
 'uploads/festival.jpg'),
 ('DevFest',
 'festival pour développeurs et passionnés de tech.',
-'Le DevFest (Developer Festival) est un événement annuel mondial destiné aux développeurs, aux étudiants et à tous les passionnés de technologie. Organisé par la communauté Google Developer Groups, et soutenu par Google, ce festival offre une occasion unique de se former, de partager des connaissances et de créer des liens avec d’autres professionnels du secteur.',
+'Le DevFest (Developer Festival) est un événement annuel mondial destiné aux développeurs, aux étudiants et à tous les passionnés de technologie. Organisé par la communauté Google Developer Groups, et soutenu par Google, ce festival offre une occasion unique de se former, de partager des connaissances et de créer des liens avec d\’autres professionnels du secteur.',
 '1',
 '2',
 'uploads/article_69c417e933745.png'),
 ('GalsenDEV',
-'GalsenDEV est une communauté sénégalaise de développeurs et passionnés de technologie qui organise des événements, ateliers et formations pour partager les connaissances, promouvoir l’innovation et renforcer les compétences en développement web, mobile et logiciel.',
+'GalsenDEV est une communauté sénégalaise de développeurs et passionnés de technologie qui organise des événements, ateliers et formations pour partager les connaissances, promouvoir l\’innovation et renforcer les compétences en développement web, mobile et logiciel.',
 'GalsenDEV : La communauté qui propulse les développeurs sénégalais
 
-Le monde de la technologie évolue rapidement, et au Sénégal, GalsenDEV s’impose comme un acteur majeur pour accompagner cette transformation. Cette communauté regroupe des développeurs, étudiants et passionnés d’informatique autour d’un objectif commun : apprendre, partager et innover.
+Le monde de la technologie évolue rapidement, et au Sénégal, GalsenDEV s\’impose comme un acteur majeur pour accompagner cette transformation. Cette communauté regroupe des développeurs, étudiants et passionnés d’informatique autour d’un objectif commun : apprendre, partager et innover.
 
 Une communauté dynamique
 
-GalsenDEV n’est pas simplement un groupe de discussion. C’est une communauté active qui organise régulièrement :
+GalsenDEV n\’est pas simplement un groupe de discussion. C\’est une communauté active qui organise régulièrement :
 
 Des ateliers pratiques pour apprendre le développement web, mobile, et logiciel.
-Des conférences sur les dernières technologies comme l’intelligence artificielle, le cloud, ou la cybersécurité.
+Des conférences sur les dernières technologies comme l\’intelligence artificielle, le cloud, ou la cybersécurité.
 Des sessions de mentorat pour guider les débutants et les étudiants dans leurs projets.
 
-Ces initiatives permettent aux membres de développer leurs compétences tout en restant connectés à l’actualité technologique mondiale.
+Ces initiatives permettent aux membres de développer leurs compétences tout en restant connectés à l\’actualité technologique mondiale.
 
 Des événements pour tous
 
-GalsenDEV organise également des événements et hackathons, offrant aux participants la chance de travailler sur des projets réels, de collaborer avec d’autres développeurs et de présenter leurs innovations devant un public. Ces rencontres favorisent le réseautage, l’échange d’idées et la création de collaborations durables.
+GalsenDEV organise également des événements et hackathons, offrant aux participants la chance de travailler sur des projets réels, de collaborer avec d’autres développeurs et de présenter leurs innovations devant un public. Ces rencontres favorisent le réseautage, l\’échange d\’idées et la création de collaborations durables.
 
-L’impact sur le développement numérique au Sénégal
+L\’impact sur le développement numérique au Sénégal
 
-En stimulant l’apprentissage et la pratique, GalsenDEV contribue directement à l’essor de l’écosystème technologique sénégalais. Les membres de la communauté deviennent des acteurs de l’innovation, capables de développer des solutions locales adaptées aux besoins du pays et d’exporter leur expertise à l’international.
+En stimulant l\’apprentissage et la pratique, GalsenDEV contribue directement à l\’essor de l\’écosystème technologique sénégalais. Les membres de la communauté deviennent des acteurs de l\’innovation, capables de développer des solutions locales adaptées aux besoins du pays et d\’exporter leur expertise à l\’international.
 
 Pourquoi rejoindre GalsenDEV ?
 
-Rejoindre GalsenDEV, c’est :
+Rejoindre GalsenDEV, c\’est :
 
 Accéder à des ressources et formations exclusives.
 Participer à des projets collaboratifs stimulants.
-Faire partie d’un réseau dynamique de développeurs et professionnels du numérique.
-Développer ses compétences tout en contribuant à l’innovation locale.
+Faire partie d\’un réseau dynamique de développeurs et professionnels du numérique.
+Développer ses compétences tout en contribuant à l\’innovation locale.
 
 Conclusion :
-GalsenDEV est bien plus qu’une simple communauté. C’est un moteur d’innovation et de partage pour tous ceux qui souhaitent grandir dans le domaine de la technologie au Sénégal. Que vous soyez étudiant, développeur débutant ou professionnel confirmé, GalsenDEV offre un cadre idéal pour apprendre, créer et connecter avec d’autres passionnés.',
+GalsenDEV est bien plus qu\’une simple communauté. C\’est un moteur d\’innovation et de partage pour tous ceux qui souhaitent grandir dans le domaine de la technologie au Sénégal. Que vous soyez étudiant, développeur débutant ou professionnel confirmé, GalsenDEV offre un cadre idéal pour apprendre, créer et connecter avec d\’autres passionnés.',
 '4',
 '4',
 'uploads/article_69c41e8a18a98.png'),
 ('Ecole Superieure Polytechnique de Dakar',
-'L’École Supérieure Polytechnique de Dakar (ESP) est un établissement d’enseignement supérieur spécialisé dans la formation d’ingénieurs et de techniciens hautement qualifiés dans les domaines des sciences, de la technologie et de l’ingénierie au Sénégal.',
-'L’École Supérieure Polytechnique de Dakar (ESP) est un établissement public de référence au Sénégal, dédié à la formation d’ingénieurs, de techniciens supérieurs et de professionnels qualifiés dans les secteurs des sciences appliquées, de l’ingénierie et de la technologie. L’ESP propose des programmes académiques variés, incluant l’ingénierie civile, l’électronique, l’informatique, les énergies renouvelables et bien d’autres domaines techniques.
+'L\’École Supérieure Polytechnique de Dakar (ESP) est un établissement d\’enseignement supérieur spécialisé dans la formation d\’ingénieurs et de techniciens hautement qualifiés dans les domaines des sciences, de la technologie et de l\’ingénierie au Sénégal.',
+'L\’École Supérieure Polytechnique de Dakar (ESP) est un établissement public de référence au Sénégal, dédié à la formation d\’ingénieurs, de techniciens supérieurs et de professionnels qualifiés dans les secteurs des sciences appliquées, de l\’ingénierie et de la technologie. L\’ESP propose des programmes académiques variés, incluant l\’ingénierie civile, l\’électronique, l\’informatique, les énergies renouvelables et bien d\’autres domaines techniques.
 
-Au-delà de l’enseignement théorique, l’école met un accent particulier sur la pratique, la recherche et l’innovation, offrant aux étudiants des laboratoires équipés et des projets concrets qui les préparent aux exigences du marché du travail. L’ESP favorise également les partenariats avec des entreprises et institutions internationales, permettant à ses étudiants d’acquérir une expérience professionnelle enrichissante et d’élargir leurs horizons.
+Au-delà de l\’enseignement théorique, l\’école met un accent particulier sur la pratique, la recherche et l’innovation, offrant aux étudiants des laboratoires équipés et des projets concrets qui les préparent aux exigences du marché du travail. L\’ESP favorise également les partenariats avec des entreprises et institutions internationales, permettant à ses étudiants d\’acquérir une expérience professionnelle enrichissante et d\’élargir leurs horizons.
 
-Grâce à sa mission de former des professionnels compétents et innovants, l’ESP contribue activement au développement technologique et industriel du Sénégal, tout en promouvant l’excellence académique et la recherche scientifique.',
+Grâce à sa mission de former des professionnels compétents et innovants, l\’ESP contribue activement au développement technologique et industriel du Sénégal, tout en promouvant l\’excellence académique et la recherche scientifique.',
 '4',
 '3',
 'uploads/article_69c4212947f37.jpg');
