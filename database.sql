@@ -72,9 +72,11 @@ INSERT INTO categories (nom) VALUES
 
 -- Administrateur (login: admin / mot de passe: admin123)
 INSERT INTO users (nom, prenom, login, mot_de_passe, role) VALUES
-('Diallo', 'Mamadou', 'admin', '$2b$12$kUHKdbDxdQ7TiMHWcD3Zi.jurG14Xgj8w3EHSRLBStL6hzNvQrGfa', 'administrateur'),
+('CISSE', 'Daouda', 'admin', '$2b$12$kUHKdbDxdQ7TiMHWcD3Zi.jurG14Xgj8w3EHSRLBStL6hzNvQrGfa', 'administrateur'),
 -- Éditeur (login: editeur1 / mot de passe: editeur123)
-('Sow', 'Fatou', 'editeur1', '$2b$12$OiHgh6.YCNXhoUaCPcZVFOyQKIfO4s31h11hT5fpWhdZtgdpI4CTq', 'editeur');
+('So', 'Yero', 'editeur1', '$2b$12$OiHgh6.YCNXhoUaCPcZVFOyQKIfO4s31h11hT5fpWhdZtgdpI4CTq', 'editeur'),
+('LEYE','Vieux Dame','editeur2','$2y$10$Evzj0qisXd/eFPT7Oi5j/Ob36s6KKcW/ZRU9UevDc8OZcvXhU4NI2','editeur'),
+('MBACKE','Serigne Fallou','editeur3','$2y$10$SyIBF34Kr3SuTe/HX92zVO6IleAuHJswXVBEgL5gvzvkj2ZQJusXq','editeur');
 
 -- Note : les hash ci-dessus sont des hash BCrypt générés avec password_hash() de PHP
 -- admin    → mot de passe : admin123
@@ -89,19 +91,98 @@ INSERT INTO articles (titre, description_courte, contenu, id_categorie, id_auteu
     'La marque TechPlus vient de présenter son dernier modèle avec des fonctionnalités révolutionnaires.',
     'La marque TechPlus a officiellement lancé son nouveau smartphone X15 lors d\'une conférence de presse tenue hier. Ce modèle dispose d\'un processeur ultra-rapide, d\'un appareil photo de 200 mégapixels et d\'une batterie de 6000 mAh. Le prix de vente est fixé à 450 000 FCFA.',
     1, -- Catégorie Technologie
-    2  -- Auteur : editeur1
+    2, -- Auteur : editeur1
+    'uploads/iphon17.jpg'
 ),
 (
     'Victoire de l\'équipe nationale de football',
     'L\'équipe nationale a remporté le match amical contre le Mali sur le score de 2-1.',
     'Dans un match très disputé, l\'équipe nationale a dominé le Mali pendant toute la rencontre. Les buts ont été marqués par Keita à la 23ème minute et par Ndiaye à la 67ème minute. Ce résultat est encourageant avant la prochaine compétition continentale.',
     2, -- Catégorie Sport
-    2
+    2,
+    'uploads/victoiree.jpg'
 ),
 (
     'Réforme du système éducatif annoncée',
     'Le ministère de l\'Éducation a présenté un nouveau programme scolaire qui entrera en vigueur l\'an prochain.',
     'Le ministre de l\'Éducation nationale a présenté hier les grandes lignes de la réforme du système éducatif. Parmi les changements notables : l\'introduction de l\'informatique dès le primaire, la révision des programmes de mathématiques et une nouvelle approche pédagogique axée sur la pratique.',
     4, -- Catégorie Éducation
-    2
-);
+    2,
+    'uploads/systeme.jpg'
+),
+(
+    'Exploration spatiale 2026',
+    'Nouveaux objectifs ambitieux pour la NASA et l’ESA.',
+    'L agence spatiale américaine a annoncé un plan de 10 ans pour une mission habitée vers Mars, avec un partenariat européen renforcé et un budget en hausse.',
+    '1',
+    '2',
+    'uploads/nasa.jpg'
+),
+(
+    'Elections municipales : enjeux locaux',
+    'Analyse des priorités des électeurs.',
+    'Les élections mettent laccent sur l eau, l éducation et les transports. Les candidats font campagne sur des projets concrets et un budget responsable.',
+    '3',
+    '1',
+    'uploads/election.jpg'
+),
+('Festival culturel : programmation 2026',
+'Retour sur les artistes confirmés pour l été.',
+'Le festival accueillera des artistes locaux et internationaux, ateliers de création, cinéma en plein air et rencontres autour des métiers de la culture.',
+'5',
+'1',
+'uploads/festival.jpg'),
+('DevFest',
+'festival pour développeurs et passionnés de tech.',
+'Le DevFest (Developer Festival) est un événement annuel mondial destiné aux développeurs, aux étudiants et à tous les passionnés de technologie. Organisé par la communauté Google Developer Groups, et soutenu par Google, ce festival offre une occasion unique de se former, de partager des connaissances et de créer des liens avec d’autres professionnels du secteur.',
+'1',
+'2',
+'uploads/article_69c417e933745.png'),
+('GalsenDEV',
+'GalsenDEV est une communauté sénégalaise de développeurs et passionnés de technologie qui organise des événements, ateliers et formations pour partager les connaissances, promouvoir l’innovation et renforcer les compétences en développement web, mobile et logiciel.',
+'GalsenDEV : La communauté qui propulse les développeurs sénégalais
+
+Le monde de la technologie évolue rapidement, et au Sénégal, GalsenDEV s’impose comme un acteur majeur pour accompagner cette transformation. Cette communauté regroupe des développeurs, étudiants et passionnés d’informatique autour d’un objectif commun : apprendre, partager et innover.
+
+Une communauté dynamique
+
+GalsenDEV n’est pas simplement un groupe de discussion. C’est une communauté active qui organise régulièrement :
+
+Des ateliers pratiques pour apprendre le développement web, mobile, et logiciel.
+Des conférences sur les dernières technologies comme l’intelligence artificielle, le cloud, ou la cybersécurité.
+Des sessions de mentorat pour guider les débutants et les étudiants dans leurs projets.
+
+Ces initiatives permettent aux membres de développer leurs compétences tout en restant connectés à l’actualité technologique mondiale.
+
+Des événements pour tous
+
+GalsenDEV organise également des événements et hackathons, offrant aux participants la chance de travailler sur des projets réels, de collaborer avec d’autres développeurs et de présenter leurs innovations devant un public. Ces rencontres favorisent le réseautage, l’échange d’idées et la création de collaborations durables.
+
+L’impact sur le développement numérique au Sénégal
+
+En stimulant l’apprentissage et la pratique, GalsenDEV contribue directement à l’essor de l’écosystème technologique sénégalais. Les membres de la communauté deviennent des acteurs de l’innovation, capables de développer des solutions locales adaptées aux besoins du pays et d’exporter leur expertise à l’international.
+
+Pourquoi rejoindre GalsenDEV ?
+
+Rejoindre GalsenDEV, c’est :
+
+Accéder à des ressources et formations exclusives.
+Participer à des projets collaboratifs stimulants.
+Faire partie d’un réseau dynamique de développeurs et professionnels du numérique.
+Développer ses compétences tout en contribuant à l’innovation locale.
+
+Conclusion :
+GalsenDEV est bien plus qu’une simple communauté. C’est un moteur d’innovation et de partage pour tous ceux qui souhaitent grandir dans le domaine de la technologie au Sénégal. Que vous soyez étudiant, développeur débutant ou professionnel confirmé, GalsenDEV offre un cadre idéal pour apprendre, créer et connecter avec d’autres passionnés.',
+'4',
+'4',
+'uploads/article_69c41e8a18a98.png'),
+('Ecole Superieure Polytechnique de Dakar',
+'L’École Supérieure Polytechnique de Dakar (ESP) est un établissement d’enseignement supérieur spécialisé dans la formation d’ingénieurs et de techniciens hautement qualifiés dans les domaines des sciences, de la technologie et de l’ingénierie au Sénégal.',
+'L’École Supérieure Polytechnique de Dakar (ESP) est un établissement public de référence au Sénégal, dédié à la formation d’ingénieurs, de techniciens supérieurs et de professionnels qualifiés dans les secteurs des sciences appliquées, de l’ingénierie et de la technologie. L’ESP propose des programmes académiques variés, incluant l’ingénierie civile, l’électronique, l’informatique, les énergies renouvelables et bien d’autres domaines techniques.
+
+Au-delà de l’enseignement théorique, l’école met un accent particulier sur la pratique, la recherche et l’innovation, offrant aux étudiants des laboratoires équipés et des projets concrets qui les préparent aux exigences du marché du travail. L’ESP favorise également les partenariats avec des entreprises et institutions internationales, permettant à ses étudiants d’acquérir une expérience professionnelle enrichissante et d’élargir leurs horizons.
+
+Grâce à sa mission de former des professionnels compétents et innovants, l’ESP contribue activement au développement technologique et industriel du Sénégal, tout en promouvant l’excellence académique et la recherche scientifique.',
+'4',
+'3',
+'uploads/article_69c4212947f37.jpg');
